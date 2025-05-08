@@ -208,10 +208,6 @@ end: `250% top`,
 }
 canvas()
 
-
-
-
-
 // Page4 h1 animation
 var clutter = "";
 
@@ -627,3 +623,33 @@ end: `250% top`,
 });
 }
 canvas2()
+
+
+// page 7 inner circle animation
+
+gsap.to("#page7-circle",{
+  scrollTrigger:{
+    trigger:`#page7-circle`,
+    start:`top center`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,   
+      // markers:true
+
+  },
+  // backgroundColor: `#0a3bce91`,
+  scale:1.3
+})
+
+gsap.to("#page7-circle-inner",{
+  scrollTrigger:{
+    trigger:`#page7-circle-inner`,
+    start:`top center`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,   
+      // markers:true
+
+  },
+  backgroundColor: `#0a3bce91`,
+})
