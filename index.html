@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
@@ -12,7 +16,7 @@
   </head>
   <body>
     <div id="main">
-      <div id="page1">
+      <div data-scroll data-scroll-speed="-5" id="page1">
         <nav>
           <img src="assets/logo.png" alt="logo not found" srcset="" />
           <div id="right-nav">
@@ -21,11 +25,14 @@
           </div>
         </nav>
         <div id="bottom-page1">
-          <h1>Experiance real <br> estate agility</h1>
+          <h1>
+            Experiance real <br />
+            estate agility
+          </h1>
           <div id="bottom-page1-inner">
             <h4>
-              Create a digital twin of your existing building <br>and release the
-              potential of Web3
+              Create a digital twin of your existing building <br />and release
+              the potential of Web3
             </h4>
             <button>Learn More</button>
           </div>
@@ -37,8 +44,54 @@
           loop
         ></video>
       </div>
+      <div id="page2">
+        <h2>CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT)</h2>
+        <h1>
+          The Digital Twin Token is a unique digital asset backed by property
+          data. Magma combines your building’s components and systems essential
+          information into a DTT.
+        </h1>
+      </div>
+      <div id="page3">
+        <canvas> </canvas>
+      </div>
+      <div id="page4">
+        <h3>CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</h3>
+        <h1>
+          Users connect directly to the DTT without any intermediaries. As
+          Stakeholder, they have the power to upload and verify information that
+          enriches the Digital Twin Token. A Stakeholder's ability to access
+          validated-data to perform tasks depends on their specific role.
+        </h1>
+      </div>
+      <div id="page5">
+        <canvas></canvas>
+      </div>
+      <div id="page6">
+        <h3>INCREASE YOUR DIGITAL TWIN TOKEN’S VALUE</h3>
+        <h1>
+          DTT data increases the value of your digital asset by lowering
+          operational costs, improving energy use, assisting commercialization,
+          and boosting the liquidity of your building.
+        </h1>
+      </div>
+      <div id="page7">
+        <canvas></canvas>
+      </div>
     </div>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
