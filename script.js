@@ -638,7 +638,7 @@ gsap.to("#page7-circle",{
 
   },
   // backgroundColor: `#0a3bce91`,
-  scale:1.3
+  scale:1.1
 })
 
 gsap.to("#page7-circle-inner",{
