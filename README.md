@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-👉 [Click here to see it live](https://kahkasha17.github.io/your-repo-name/)  
+👉 [Click here to see it live](https://kahkasha17.github.io/thisismagma-clone/)  
 _Replace with your actual GitHub Pages link_
 
 ---
