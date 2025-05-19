@@ -7,7 +7,6 @@
 ## 🚀 Live Demo
 
 👉 [Click here to see it live](https://kahkasha17.github.io/thisismagma-clone/)  
-_Replace with your actual GitHub Pages link_
 
 ---
 
@@ -38,13 +37,17 @@ _Replace with your actual GitHub Pages link_
 
 <!-- Option 1: Markdown-style preview -->
 ### 🖼️ Hero Section  
-![Hero](assets/hero.png)
+![Hero](assets/hero.PNG)
 
-### 🖼️ Scroll Section  
-![Scroll](assets/scroll.png)
+### 🖼️ About Section  
+![About](assets/about.PNG)
+
+### 🖼️ Feature Section  
+![Features](assets/Feature.PNG)
+![Features](assets/Feature2.PNG)
 
 ### 🖼️ Footer  
-![Footer](assets/footer.png)
+![Footer](assets/footer.PNG)
 
 <!-- Option 2: Row layout using HTML -->
 <!--
@@ -63,6 +66,21 @@ _Replace with your actual GitHub Pages link_
 
 Add these in the “Topics” section on GitHub:
 
+-magma-clone
+-frontend-clone
+-html-css-js
+-gsap-animation
+-locomotive-scroll
+-canvas-animation
+-animated-landing-page
+-javascript-project
+-web-clone
+-advanced-scroll
+-creative-design
+-ui-ux-clone
+-smooth-scrolling
+-landing-page-clone
+-motion-design
 
 ---
 
