@@ -43,8 +43,8 @@
 ![About](assets/about.PNG)
 
 ### 🖼️ Feature Section  
-![Features](assets/Feature.PNG)
-![Features](assets/Feature2.PNG)
+![Features](assets/feature.PNG)
+![Features](assets/feature2.PNG)
 
 ### 🖼️ Footer  
 ![Footer](assets/footer.PNG)
